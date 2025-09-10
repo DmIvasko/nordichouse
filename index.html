@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nordic House Karelia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Логотип Nordic House" class="logo">
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#houses">Наши дома</a>
+      <a href="#services">Услуги</a>
+      <a href="#booking">Бронирование</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Дома у Ладожского озера</h1>
+    <p>Уютные дома на первой береговой линии залива Кирьявалахти</p>
+  </section>
+
+  <section id="about">
+    <h2>О нас</h2>
+    <p>Nordic House Karelia — это семейное дело. Мы гарантируем чистоту, уют и гостеприимство.</p>
+  </section>
+
+  <section id="houses">
+    <h2>Наши дома</h2>
+    <div class="card">
+      <h3>Дом Нордикхаус Æ</h3>
+      <div class="slider" id="slider-ae"></div>
+    </div>
+    <div class="card">
+      <h3>Дом Нордикхаус Ü</h3>
+      <div class="slider" id="slider-u"></div>
+    </div>
+    <div class="card">
+      <h3>Дом Нордикхаус Ä</h3>
+      <div class="slider" id="slider-a"></div>
+    </div>
+    <div class="card">
+      <h3>Дом Нордикхаус Ö</h3>
+      <div class="slider" id="slider-o"></div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Услуги</h2>
+    <ul>
+      <li>Финская сауна с видом на Ладогу</li>
+      <li>Услуги питания</li>
+      <li>Размещение с домашними животными</li>
+      <li>Экскурсии и аренда лодок</li>
+      <li>Трансфер и доставка продуктов</li>
+    </ul>
+  </section>
+
+  <section id="booking">
+    <h2>Бронирование</h2>
+    <form id="booking-form">
+      <input type="text" name="name" placeholder="Ваше имя" required>
+      <input type="tel" name="phone" placeholder="Телефон" required>
+      <input type="date" name="date" required>
+      <select name="house" required>
+        <option value="">Выберите дом</option>
+        <option value="Æ">Дом Нордикхаус Æ</option>
+        <option value="Ü">Дом Нордикхаус Ü</option>
+        <option value="Ä">Дом Нордикхаус Ä</option>
+        <option value="Ö">Дом Нордикхаус Ö</option>
+      </select>
+      <button type="submit">Забронировать</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Nordic House Karelia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
